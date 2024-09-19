@@ -38,11 +38,11 @@ const config = {
       	({
         	docs: {
           		sidebarPath: './sidebars.js',
-				editUrl: 'https://github.com/flash4ki/mzscriptdocs/tree/main',
+				editUrl: 'https://github.com/flash4kiez/mzscriptdocs/tree/main',
 			},
 			blog: {
 				showReadingTime: true,
-				editUrl: 'https://github.com/flash4ki/mzscriptdocs/tree/main',
+				editUrl: 'https://github.com/flash4kiez/mzscriptdocs/tree/main',
 			},
 			theme: {
         		customCss: './src/css/custom.css',
