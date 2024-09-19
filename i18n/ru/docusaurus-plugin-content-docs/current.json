@@ -3,10 +3,6 @@
     "message": "Следующее",
     "description": "The label for version current"
   },
-  "sidebar.docsID.category.Guides": {
-    "message": "Гайды",
-    "description": "The label for category Guides in sidebar docsID"
-  },
   "sidebar.docsID.category.Start": {
     "message": "Старт",
     "description": "The label for category Start in sidebar docsID"
