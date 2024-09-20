@@ -1,12 +1,12 @@
-# $upperCase
-Makes text uppercase.
+# $text
+Makes the code a regular string.
 
 ## Usage
 ```py
-$upperCase[Text]
+$text[Text]
 ```
 
 ## Parameters
 | Label | Description | Required |
 | ----- | ----------- | -------- |
-| Text | Text that will need to be changed. | True |
+| Text | The text of which will be checked. | True |

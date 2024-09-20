@@ -13,8 +13,3 @@ $replaceText[Text;Old;New;(Amount)]
 | Old | What will need to be replaced. | True |
 | New | What should be replaced with. | True |
 | Amount | How many times should the text be changed? | False |
-
-## Example
-```py
-<Client>.add_command(name='!command', code='$sendMessage[$replaceText[$message;Hello;Bye;1]]')
-```

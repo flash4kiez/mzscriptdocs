@@ -31,8 +31,3 @@ $channelInfo[(Channel ID);Type]
 | bitrate | The bitrate of voice channel. |
 | user_limit | Returns the max users available to join in voice channel. |
 | region | The region of voice channel. |
-
-## Example
-```py
-<Client>.add_command(name='!command', code='$sendMessage[Channel ID: $channelInfo[id]]')
-```
