@@ -3,7 +3,7 @@ Returns the user information.
 
 ## Usage
 ```py
-$userInfo[(Guild ID;User ID);Type]
+$userInfo[(Guild ID;User ID);Param]
 ```
 
 ## Parameters
@@ -11,9 +11,9 @@ $userInfo[(Guild ID;User ID);Type]
 | ----- | ----------- | -------- |
 | Guild ID | Guild ID to return this information. | False |
 | User ID | User ID to return this information. | False |
-| Type | What type of information should be returned? | True |
+| Param | What param of information should be returned? | True |
 
-### Supported inputs for `Type`:
+### Supported inputs for `Param`
 | Input | Description |
 | ----- | ----------- |
 | avatar | User avatar icon. |

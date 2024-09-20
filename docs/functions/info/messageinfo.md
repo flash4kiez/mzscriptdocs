@@ -3,7 +3,7 @@ Returns the message information.
 
 ## Usage
 ```py
-$messageInfo[(Channel ID; Message ID);Type]
+$messageInfo[(Channel ID;Message ID);Param]
 ```
 
 ## Parameters
@@ -11,9 +11,9 @@ $messageInfo[(Channel ID; Message ID);Type]
 | ----- | ----------- | -------- |
 | Channel ID | Guild ID to return this information. | False |
 | Message ID | User ID to return this information. | False |
-| Type | What type of information should be returned? | True |
+| Param | What param of information should be returned? | True |
 
-### Supported inputs for `Type`
+### Supported inputs for `Param`
 | Input | Description |
 | ----- | ----------- |
 | author | Returns message author id. |
@@ -25,5 +25,5 @@ $messageInfo[(Channel ID; Message ID);Type]
 | url | Returns a reference to the message. |
 | pinned | Pins the message. |
 | guild | Returns the guild ID where the message is located. |
-| position |  |
-| type | |
+| position | Return position message |
+| type | Return type message |

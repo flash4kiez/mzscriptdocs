@@ -3,19 +3,19 @@ Returns the bot information.
 
 ## Usage
 ```py
-$botInfo[Type]
+$botInfo[Param]
 ```
 
 ## Parameters
 | Label | Description | Required |
 | ----- | ----------- | -------- |
-| Type | What type of information should be returned? | True |
+| Param | What param of information should be returned? | True |
 
-### Supported inputs for `Type`
+### Supported inputs for `Param`
 | Input | Description |
 | ----- | ----------- |
 | is_private | Returns whether the bot is private |
-| image |  |
+| image | Assest from discord developer |
 | description | Returns the description of the bot. |
 | icon | Returns the bots avatar. |
 | id | Returns the bot ID. |

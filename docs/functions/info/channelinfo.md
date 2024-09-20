@@ -3,16 +3,16 @@ Returns the channel information.
 
 ## Usage
 ```py
-$channelInfo[(Channel ID);Type]
+$channelInfo[(Channel ID);Param]
 ```
 
 ## Parameters
 | Label | Description | Required |
 | ----- | ----------- | -------- |
 | Channel ID | Channel ID to return this information. | False |
-| Type | What type of information should be returned? | True |
+| Param | What param of information should be returned? | True |
 
-### Supported inputs for `Type`:
+### Supported inputs for `Param`
 | Input | Description |
 | ----- | ----------- |
 | category | The parent ID of channel. |
