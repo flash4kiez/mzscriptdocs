@@ -60,14 +60,14 @@ Adds reaction to message, same to [$addReaction](/docs/functions/message/addreac
 ## Examples
 - Example 1:
 ```py
-<Client>.add_command(name="!command", code="""
-$sendMessage[Hello, world!]
-""")
+<Client>.add_command(name='!command', code='''
+$editMessage[Hello, world!]
+''')
 ```
 
 - Example 2:
 ```py
-<Client>.add_command(name="!command", code="""
-$sendMessage[$userInfo[dm];;Welcome!;Welcome to new guild "$guildInfo[name]";;;0058CF]
-""")
+<Client>.add_command(name='!command', code='''
+$editMessage[$userInfo[dm];;Welcome!;Welcome to new guild "$guildInfo[name]";;;0058CF]
+''')
 ```

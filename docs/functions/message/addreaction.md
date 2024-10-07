@@ -16,9 +16,9 @@ $addReaction[(Channel ID;Message ID);Emoji]
 ## Examples
 - Example 1
 ```py
-<Client>.add_command(name='!command', code="$addReaction[😎]")
+<Client>.add_command(name='!command', code='$addReaction[😎]')
 ```
 - Example 2
 ```py
-<Client>.add_command(name='!command', code="$sendMessage[Hello!;#addReaction[👍]]")
+<Client>.add_command(name='!command', code='$sendMessage[Hello!;#addReaction[👍]]')
 ```
