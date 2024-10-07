@@ -16,7 +16,7 @@ export default function Home() {
 						<Translate>Improved BDFD interpreter in Python</Translate>
 					</p>
 					<div className={styles.buttons}>
-						<Link className="button button--secondary button--lg" to="/docs/functions/check/has_role">
+						<Link className="button button--secondary button--lg" to="/docs/started">
 							<Translate>Start Coding</Translate>
 						</Link>
 					</div>

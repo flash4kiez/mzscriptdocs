@@ -68,7 +68,6 @@ const config = {
 					position: 'left',
 					label: 'Documentation',
 				},
-				{ to: '/', label: 'Updates', position: 'left' },
 				{
 					type: 'localeDropdown',
 					position: 'right',
