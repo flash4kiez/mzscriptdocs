@@ -12,8 +12,3 @@ $addRole[(Guild ID;User ID);Role ID]
 | Guild ID | Айди гильдии в которой нужно выдать роль. | Нет |
 | User ID | Айди пользователя которому нужно выдать роль. | Нет |
 | Role ID | Айди роли которую нужно выдать | Да |
-
-## Пример
-```py
-<Client>.add_command(name='!command', code='$addRole[$roleInfo[$message[0];id]]')
-```

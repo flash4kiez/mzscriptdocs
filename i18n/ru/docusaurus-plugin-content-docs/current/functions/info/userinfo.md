@@ -28,8 +28,3 @@ $userInfo[(Guild ID;User ID);Type]
 | timeout | Время окончание тайм-аута. (unix-time) |
 | status | Discord cтатус пользователя. |
 | joined | Когда присоединился пользователь к гильдии. (unix-time) |
-
-## Пример
-```py
-<Client>.add_command(name='!command', code='$sendMessage[User ID: $userInfo[id]]')
-```

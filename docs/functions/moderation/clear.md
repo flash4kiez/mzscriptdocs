@@ -9,5 +9,5 @@ $clear[(Channel ID);Count]
 ## Parameters
 | Label | Description | Required |
 | ----- | ----------- | -------- |
-| Channel ID | The guild on which user should be banned. | False |
+| Channel ID | Channel ID. | False |
 | Count | Number of messages. | True |

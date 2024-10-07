@@ -1,17 +1,12 @@
 # $titleCase
-Makes text titlecase.
+Начинает текст с большой буквы.
 
-## Usage
+## Использование
 ```py
 $titleText[Text]
 ```
 
-## Parameters
-| Label | Description | Required |
-| ----- | ----------- | -------- |
-| Text | Text that will need to be changed. | False |
-
-## Example
-```py
-<Client>.add_command(name='!command', code='$sendMessage[$titleText[$message]]')
-```
+## Парамерты
+| Название | Описание | Обьязательно |
+| -------- | -------- | ------------ |
+| Text | Текст которой будет изменен. | Да |

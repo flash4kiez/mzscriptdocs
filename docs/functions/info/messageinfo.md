@@ -9,8 +9,8 @@ $messageInfo[(Channel ID;Message ID);Param]
 ## Parameters
 | Label | Description | Required |
 | ----- | ----------- | -------- |
-| Channel ID | Guild ID to return this information. | False |
-| Message ID | User ID to return this information. | False |
+| Channel ID | Channel ID to return this information. | False |
+| Message ID | Message ID to return this information. | False |
 | Param | What param of information should be returned? | True |
 
 ### Supported inputs for `Param`
@@ -25,5 +25,5 @@ $messageInfo[(Channel ID;Message ID);Param]
 | url | Returns a reference to the message. |
 | pinned | Pins the message. |
 | guild | Returns the guild ID where the message is located. |
-| position | Return position message |
-| type | Return type message |
+| position | Return position message. |
+| type | Return type message. |

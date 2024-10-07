@@ -9,4 +9,4 @@ $charCount[Text]
 ## Parameters
 | Label | Description | Required |
 | ----- | ----------- | -------- |
-| Text | The text that will be checked. | False |
+| Text | The text that will be checked. | True |

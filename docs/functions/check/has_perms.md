@@ -6,7 +6,7 @@ Cheking if the user has a permissions.
 $hasPerms[(Guild ID;User ID);Permission]
 ```
 
-# Parameters
+## Parameters
 | Label | Description | Required |
 | ----- | ----------- | -------- |
 | Guild ID | Guild ID the user is in. | False |

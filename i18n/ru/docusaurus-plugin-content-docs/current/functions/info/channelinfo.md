@@ -31,8 +31,3 @@ $channelInfo[(Channel ID);Type]
 | bitrate | Битрейт голосового канала. |
 | user_limit | Возвращает максимальное количество человек которое может присоединиться к голосовому каналу. |
 | region | Регион голосового канала. |
-
-## Пример
-```py
-<Client>.add_command(name='!command', code='$sendMessage[Channel ID: $channelInfo[id]]')
-```

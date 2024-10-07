@@ -10,7 +10,7 @@ $roleInfo[(Guild ID;Role ID);Param]
 | Label | Description | Required |
 | ----- | ----------- | -------- |
 | Guild ID | Guild ID to return this information. | False |
-| Role ID | User ID to return this information. | False |
+| Role ID | Role ID to return this information. | False |
 | Param | What param of information should be returned? | True |
 
 ### Supported inputs for `Param`

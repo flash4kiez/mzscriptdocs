@@ -1,20 +1,15 @@
 # $replaceText
-Replaces text with other text.
+Изменяет текст на другой.
 
-## Usage
+## Использование
 ```py
 $replaceText[Text;Old;New;(Amount)]
 ```
 
-## Parameters
-| Label | Description | Required |
-| ----- | ----------- | -------- |
-| Text | Text in which you need to replace characters. | True |
-| Old | What will need to be replaced. | True |
-| New | What should be replaced with. | True |
-| Amount | How many times should the text be changed? | False |
-
-## Example
-```py
-<Client>.add_command(name='!command', code='$sendMessage[$replaceText[$message;Hello;Bye;1]]')
-```
+## Парамерты
+| Название | Описание | Обьязательно |
+| -------- | -------- | ------------ |
+| Text | Текст, в котором нужно заменить символы. | Да |
+| Old | Текст которой будет изменен. | Да |
+| New | Новый текст. | Да |
+| Amount | Сколько раз следует менять текст? | Нет |

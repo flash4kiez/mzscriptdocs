@@ -1,5 +1,5 @@
 # $deleteCommand
-Removes the message that invokes the command..
+Removes the message that invokes the command.
 
 ## Usage
 ```py

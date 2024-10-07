@@ -6,7 +6,7 @@ Checks if the user is an admin.
 $isAdmin[(Guild ID);User ID]
 ```
 
-# Parameters
+## Parameters
 | Label | Description | Required |
 | ----- | ----------- | -------- |
 | Guild ID | Guild ID the user is in. | False |

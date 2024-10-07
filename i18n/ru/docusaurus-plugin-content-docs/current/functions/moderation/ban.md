@@ -12,8 +12,3 @@ $ban[(Guild ID);User ID;(Reason)]
 | Guild ID | Гильдия в которой нужно забанить пользователя. | Нет |
 | User ID | Какого пользователя нужно забанить | Да |
 | Reason | Причина бана. | Нет |
-
-## Пример
-```py
-<Client>.add_command(name='!command', code='$sendMessage[User banned!] $ban[$message]')
-```

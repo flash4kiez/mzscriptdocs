@@ -12,8 +12,3 @@ $removeRole[(Guild ID;User ID);Role ID]
 | Guild ID | Айди гильдии в которой нужно забрать роль. | Нет |
 | User ID | Айди пользователя которому нужно забрать роль. | Нет |
 | Role ID | Айди роли которую нужно забрать | Да |
-
-## Пример
-```py
-<Client>.add_command(name='!command', code='$removeRole[$roleInfo[$message[0];id]]')
-```
