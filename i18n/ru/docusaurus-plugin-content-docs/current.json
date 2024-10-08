@@ -3,21 +3,13 @@
     "message": "Следующее",
     "description": "The label for version current"
   },
-  "sidebar.docsID.category.Start": {
-    "message": "Старт",
-    "description": "The label for category Start in sidebar docsID"
+  "sidebar.docsID.category.Guides": {
+    "message": "Гайды",
+    "description": "The label for category Guides in sidebar docsID"
   },
-  "sidebar.docsID.category.Bot": {
+  "sidebar.docsID.category.Client": {
     "message": "Бот",
-    "description": "The label for category Bot in sidebar docsID"
-  },
-  "sidebar.docsID.category.Application Commands": {
-    "message": "Команды",
-    "description": "The label for category Application Commands in sidebar docsID"
-  },
-  "sidebar.docsID.category.Other": {
-    "message": "Другое",
-    "description": "The label for category Other in sidebar docsID"
+    "description": "The label for category Cliemt in sidebar docsID"
   },
   "sidebar.docsID.category.Functions": {
     "message": "Функции",
@@ -30,10 +22,6 @@
   "sidebar.docsID.category.Info": {
     "message": "Информация",
     "description": "The label for category Info in sidebar docsID"
-  },
-  "sidebar.docsID.category.Math": {
-    "message": "Математика",
-    "description": "The label for category Math in sidebar docsID"
   },
   "sidebar.docsID.category.Message": {
     "message": "Сообщения",
@@ -48,7 +36,7 @@
     "description": "The label for category Roles in sidebar docsID"
   },
   "sidebar.docsID.category.Text": {
-    "message": "Текст",
+    "message": "Работа с текстом",
     "description": "The label for category Text in sidebar docsID"
   }
 }
